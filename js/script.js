@@ -21,7 +21,6 @@ const loop = setInterval(() => {
 
         pipe.style.animation = 'none';
         pipe.style.left = `${pipeposition}px`;
-
         mario.style.animation = 'none';
         mario.style.bottom= `${marioposition}px`;
         mario.src = '/images/game-over.png'
